@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.home-main {
+  color: #fff;
+  background-color: #ff7043;
   min-height: 100vh;
+  margin: auto;
+}
+
+.device-section {
+  min-height: 70vh;
+  padding: 96px;
+}
+
+.content {
+  font-size: 45px;
+  position: absolute;
+  width: 20px;
+  margin-top: 200px;
+  margin-left: 200px;
+  text-transform: uppercase;
+}
+.details {
+  display: inline-block;
+  font-size: 15px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+}
+.first-part {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px;
+  justify-content: end;
+  display: inline-block;
+}
+
+.second-part {
+  display: flex;
+  padding: 20px;
+  display: block;
+}
+
+.third-part {
+  display: flex;
+  padding: 20px;
+  justify-content: end;
+  display: inline-block;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.158);
+  height: 60px;
+}
+.footer-button {
+  text-align: center;
+  padding-top: 10px;
+}
+
+button {
+  padding: 5px;
+  text-transform: uppercase;
+  margin: 5px;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:nth-child(2){
+  background-color: #1B2430;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
